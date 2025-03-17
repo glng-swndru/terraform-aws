@@ -1,35 +1,37 @@
-# **Belajar Infrastructure as Code (IaC) dengan Terraform & AWS**
+# Learning Infrastructure as Code (IaC) with Terraform & AWS
 
-Repository ini dibuat sebagai bagian dari pembelajaran **Infrastructure as Code (IaC)** menggunakan **Terraform** untuk mengelola infrastruktur di **AWS**.
+This repository is created as part of the learning journey in **Infrastructure as Code (IaC)** using **Terraform** to manage infrastructure on AWS.
 
-## **Apa Itu Terraform?**
-Terraform adalah tool **Infrastructure as Code (IaC)** yang memungkinkan kita mengelola sumber daya cloud seperti **EC2, S3, VPC, IAM**, dan lainnya dengan pendekatan deklaratif.
+## What is Terraform?
+Terraform is an **Infrastructure as Code (IaC)** tool that allows us to manage cloud resources such as **EC2, S3, VPC, IAM**, and more using a **declarative approach**.
 
-## **Instalasi Terraform**
-### **Unduh Terraform:**
-- [Download Terraform](https://developer.hashicorp.com/terraform/downloads)
+## Installation
+### Install Terraform
+1. **Download Terraform**: [Terraform Downloads](https://developer.hashicorp.com/terraform/downloads)
+2. **Verify installation**:
+   ```sh
+   terraform version
+   ```
 
-### **Verifikasi Instalasi:**
-```sh
-terraform version
-```
+### Install AWS CLI
+Since Terraform is used to manage AWS resources, make sure **AWS CLI** is installed:
+1. **Download AWS CLI**: [AWS CLI Installation](https://aws.amazon.com/cli/)
+2. **Configure credentials**:
+   ```sh
+   aws configure
+   ```
 
-## **Instalasi AWS CLI**
-Karena Terraform akan digunakan untuk mengelola AWS, pastikan **AWS CLI** sudah terinstal:
-- [Download AWS CLI](https://aws.amazon.com/cli/)
+## Learning Resources
+📖 **Terraform Documentation**: [HashiCorp Terraform Docs](https://developer.hashicorp.com/terraform/docs)  
+📖 **AWS Terraform Provider**: [AWS Docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)  
+🎥 **Terraform & AWS Tutorials**: [HashiCorp YouTube](https://www.youtube.com/c/HashiCorp)  
+📝 **Best Practices**: [Terraform Best Practices](https://www.terraform-best-practices.com/)  
 
-### **Konfigurasi kredensial:**
-```sh
-aws configure
-```
+## About This Repository
+✅ Contains Terraform configuration examples for AWS.  
+✅ Will be updated continuously as learning progresses.  
+✅ Open for feedback—feel free to create an **issue** or submit a **pull request**! 🚀  
 
-## **Sumber Belajar Terraform & AWS**
-- 📖 **Terraform Docs:** [HashiCorp Terraform](https://developer.hashicorp.com/terraform/docs)
-- 📖 **AWS Docs:** [AWS Terraform Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
-- 🎥 **YouTube - Terraform & AWS:** [HashiCorp YouTube](https://www.youtube.com/c/HashiCorp)
-- 📝 **Best Practices:** [Terraform Best Practices](https://developer.hashicorp.com/terraform/tutorials/configuration-language)
+---
 
-## **Tentang Repository Ini**
-- Berisi contoh konfigurasi Terraform untuk AWS.
-- Akan diperbarui seiring dengan proses pembelajaran.
-- Jika ada masukan atau pertanyaan, silakan buat **issue** atau **pull request**. 🚀
+Happy coding and automating with Terraform & AWS! 😊
